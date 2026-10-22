@@ -40,15 +40,15 @@ Aplikasi dirancang untuk kebutuhan pembelajaran dan pengembangan CRUD (Create, R
 
 ## Fitur
 
-- **Daftar mahasiswa** — menampilkan data dari database.
-- **Tambah mahasiswa** — menyimpan data mahasiswa baru.
-- **Edit mahasiswa** — mengambil data berdasarkan ID lalu memperbaruinya.
-- **Hapus mahasiswa** — menampilkan konfirmasi sebelum penghapusan.
-- **Pencarian** — mencari berdasarkan kode, nama, alamat, atau jurusan; pencarian dilakukan saat pengguna mengetik.
-- **Validasi input** — memastikan kolom wajib terisi, membatasi panjang beberapa nilai, memeriksa format tanggal, dan mencegah tanggal lahir di masa depan.
-- **Pencegahan kode ganda** — `kode_mahasiswa` harus unik.
-- **Status antarmuka** — indikator loading, pesan sukses, keadaan data kosong, dan pesan kesalahan.
-- **Endpoint health check** — memeriksa apakah backend merespons.
+- **Daftar mahasiswa**  menampilkan data dari database.
+- **Tambah mahasiswa**  menyimpan data mahasiswa baru.
+- **Edit mahasiswa** mengambil data berdasarkan ID lalu memperbaruinya.
+- **Hapus mahasiswa** menampilkan konfirmasi sebelum penghapusan.
+- **Pencarian** mencari berdasarkan kode, nama, alamat, atau jurusan; pencarian dilakukan saat pengguna mengetik.
+- **Validasi input**  memastikan kolom wajib terisi, membatasi panjang beberapa nilai, memeriksa format tanggal, dan mencegah tanggal lahir di masa depan.
+- **Pencegahan kode ganda**  `kode_mahasiswa` harus uniq dengan 4 digit.
+- **Status antarmuka** indikator loading, pesan sukses, keadaan data kosong, dan pesan kesalahan.
+- **Endpoint health check**  memeriksa apakah backend merespons.
 
 ## Teknologi
 
@@ -212,7 +212,7 @@ Jalankan Vite:
 npm run dev
 ```
 
-Buka alamat yang ditampilkan oleh Vite, biasanya:
+Buka alamat yang ditampilkan oleh Vite :
 
 ```text
 http://localhost:5173

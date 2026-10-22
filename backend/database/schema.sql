@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS crud_mahasiswa
 USE crud_mahasiswa;
 
 CREATE TABLE IF NOT EXISTS mahasiswa (
-    id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+    id INT UNSIGNED NOT NULL AUTO_INCREMENT ,
     kode_mahasiswa VARCHAR(20) NOT NULL,
     nama_mahasiswa VARCHAR(100) NOT NULL,
     alamat_mahasiswa TEXT NOT NULL,
